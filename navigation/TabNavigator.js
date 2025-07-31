@@ -8,7 +8,7 @@ const Tab = createBottomTabNavigator();
 
 export default function TabNavigator() {
     return (
-        <Tab.Navigator initialRouteName="TabScreen">
+        <Tab.Navigator initialRouteName="TabScreen" screenOptions={{ headerShown: false }}>
             <Tab.Screen 
                 name="TabScreen" 
                 component={TabScreen} 

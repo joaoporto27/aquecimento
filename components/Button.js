@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, TouchableOpacity, Link } from "react-native";
+import { Text, TouchableOpacity} from "react-native";
 
 export default function Button( {onPress}) {
   return (
@@ -12,7 +12,7 @@ export default function Button( {onPress}) {
         borderRadius: 8,
       }}
     >
-      <Text style={styles.textButton}>Ver mais personagens</Text>
+      <Text style={styles.textButton}>Ver mais</Text>
     </TouchableOpacity>
   );
 }

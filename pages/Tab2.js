@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text } from "react-native";
 
-export default function TabScreen() {
+export default function Tab2() {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Página Tab</Text>
